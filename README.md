@@ -6,7 +6,7 @@ work of practice
 
 
 <h3>单页网站练习20170228</h3>
->素材来自 <a href="http://pixelhint.com">Pixelhint.com</a>,已附上<a href="PracticeWork/仿站20170228/index.psd">PSD</a>
+>素材来自 <a href="http://pixelhint.com">Pixelhint.com</a>,已附上<a href="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/index.psd">PSD</a>
 
 
 
