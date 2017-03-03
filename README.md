@@ -10,10 +10,10 @@ work of practice
 
 
 
->网站整体预览图
+<h4>网站整体预览图</h4>
 ![网站预览图](https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/%E4%BB%BF%E7%AB%9920170228.png?raw=true)
 
 
 
->网站自适应情况图
+<h4>网站自适应情况图</h4>
 ![网站自适应情况图片](https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87.png?raw=true)
