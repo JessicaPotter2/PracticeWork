@@ -10,7 +10,7 @@
 }
 /*通用*/
 .wrapper{max-width:1100px;margin: 0 auto;position: relative; }
-body{background: #fff;}
+body{background: #fff;font-family: Lato,arial,sans-serif;}
 /*house*/
 .house{width: 100%;height:900px;position: relative;background: url(../img/house.jpg) no-repeat center center;background-size: cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;}
 header{width: 100%;height: 100px;background: rgba(16,34,51,.1);}
@@ -56,10 +56,10 @@ footer .links{width: 197px;}
 footer .footer>ul{overflow: hidden;}
 footer .footer>ul>li{display: block;float: left;list-style: none;margin-right: 60px;}
 footer ul li.links>ul>li{display: block;width: 100%;list-style: none;margin-bottom: 24px;}
-footer ul li.links>ul>li a{text-decoration: none;color: #fff;display: block;font-size: 16px;font-weight: bold;}
+footer ul li.links>ul>li a{text-decoration: none;color: #fff;display: block;font-size: 16px;}
 footer .footer>ul>li.about{width: 327px;}
 footer .footer>ul>li:last-child{margin-right: 0;}
-footer .about p{color: #fff;font-size: 16px;line-height: 38px;margin-top: -11px;font-weight: bold;}
+footer .about p{color: #fff;font-size: 16px;line-height: 38px;margin-top: -11px;}
 footer .about li{display: inline-block;margin-right: 20px;margin-top: 30px;}
 footer .about li a{background: url(../img/social.png) no-repeat;display: block;}
 footer .about li a.facebook{width: 10px;height: 18px;background-position: 0 0;}
