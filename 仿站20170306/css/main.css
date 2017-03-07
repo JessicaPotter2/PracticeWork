@@ -28,3 +28,43 @@ header nav .login_btn:hover{background: #fff;color: #000;}
 /*search*/
 .search{width: 100%;height: 100px;background: #bfd9f2;position: relative;}
 .search #search{display: block;width: 80%;height: 100px;float: left;margin: 0;padding: 0;background: #bfd9f2;color: #fff;font-size: 20px;text-transform: uppercase;letter-spacing: 1px;border: 0;outline: 0;}
+.search #search::-webkit-input-placeholder{color: #95badf;}
+.search #search::-moz-placeholder{color: #95badf;}
+.search #search:-moz-placeholder{color: #95badf;}
+.search #search:-ms-input-placeholder{color: #95badf;}
+.search #submit_search{display: none;}
+.search .search_icon{display: block;width: 26px;height: 26px;float: right;background: url(../img/search_icon.png) no-repeat;margin-top: 37px;transition: all .2s linear;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;}
+.search .search_icon:hover{background: url(../img/search_icon_hover.png) no-repeat;}
+/*list*/
+.list{padding: 100px 0;}
+.list ul.house_list{list-style: none;overflow: hidden;}
+.list ul.house_list li{display: block;width: 30.909090909%;height: auto;position: relative;float: left;margin: 0 3.6363636% 3.6363636% 0; }
+.list ul.house_list li:nth-child(3n+0){margin-right: 0;}
+.list ul.house_list li img.house_img{width: 100%;height: auto!important;vertical-align: middle;}
+.list ul.house_list li .price{position: absolute;top: 10px;left: 10px;padding:15px 20px;background: #fff;color: #514e4e;font-size: 16px;font-weight: bold;letter-spacing: 1px;border-radius: 2px;-webkit-border-radius:2px;-moz-border-radius:2px;-o-border-radius:2px; }
+.list ul.house_list li .details{width: 89.0491124%;padding:2.84457373% 5.2254437% 8.034567332% 5.2254437%; border:1px solid #f2f1f1;border-top: 0;transition: all .2s linear;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;}
+.list ul.house_list li:hover .details{border:1px solid #a0c3e5; border-top: 0;}
+.list div.details h1{color: #676565;font-size: 16px;font-weight: bold;margin-bottom: 17px;}
+.list div.details h1 a{color: #676565;text-decoration: none;}
+.list div.details h2{color: #bababa;font-size: 12px;font-weight: normal;}
+.list .more_list{width: 100%;text-align: center;margin-top:82px;}
+.list .more_list_btn{text-decoration: none;color: #b0cce7;font-size:16px;font-weight: bold; padding: 20px 40px;border: 2px solid #bfd9f2;text-transform: uppercase;letter-spacing: 1px;text-align: center;transition: all .2s linear;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear; border-radius: 30px;-webkit-border-radius:30px;-moz-border-radius:30px;-o-border-radius:30px;}
+.list .more_list_btn:hover{border:2px solid #2b89e6;color:#2b89e6; }
+/*footer*/
+footer{padding-top: 100px;background: #95badf;}
+footer .links{width: 197px;}
+footer .footer>ul{overflow: hidden;}
+footer .footer>ul>li{display: block;float: left;list-style: none;margin-right: 60px;}
+footer ul li.links>ul>li{display: block;width: 100%;list-style: none;margin-bottom: 24px;}
+footer ul li.links>ul>li a{text-decoration: none;color: #fff;display: block;font-size: 16px;font-weight: bold;}
+footer .footer>ul>li.about{width: 327px;}
+footer .footer>ul>li:last-child{margin-right: 0;}
+footer .about p{color: #fff;font-size: 16px;line-height: 38px;margin-top: -11px;font-weight: bold;}
+footer .about li{display: inline-block;margin-right: 20px;margin-top: 30px;}
+footer .about li a{background: url(../img/social.png) no-repeat;display: block;}
+footer .about li a.facebook{width: 10px;height: 18px;background-position: 0 0;}
+footer .about li a.twitter{width: 19px;height: 18px;background-position: -11px 0;}
+footer .about li a.google{width: 10px;height: 18px;background-position: -31px 0;}
+footer .about li a.skype{width: 17px;height: 18px;background-position: -43px 0;}
+footer .rights{display: block;text-align: center;padding: 40px 0;margin-top: 60px;color: #fff;font-size: 14px;border-top: 1px solid #82abd4;}
+footer .rights a.rights_link{font-weight: bold;text-decoration: none;}
