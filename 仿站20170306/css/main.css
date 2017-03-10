@@ -15,7 +15,8 @@ body{background: #fff;font-family: Lato,arial,sans-serif;}
 .house{width: 100%;height:900px;position: relative;background: url(../img/house.jpg) no-repeat center center;background-size: cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;}
 header{width: 100%;height: 100px;background: rgba(16,34,51,.1);}
 header .logo{display: block;float: left;font-size: 20px;margin-top: 42px;text-decoration: none;font-weight: bold;}
-header a.menu_icon{text-decoration: none;display: none;float: right;width: 24px;height: 19px;background: url(../img/menu_icon.png) no-repeat;}
+header a.menu_icon{text-decoration: none;display: none;float: right;width: 24px;height: 19px;margin-top:40px;background: url(../img/menu_icon.png) no-repeat;}
+header a.menu_icon.opend{width: 19px;background: url('../img/close_menu_icon.png') no-repeat;}
 header nav{float: right;}
 header nav ul{list-style: none;float: left;overflow: hidden;margin-top: 42px;}
 header nav ul li{float: left;margin-left: 50px;}
@@ -68,3 +69,50 @@ footer .about li a.google{width: 10px;height: 18px;background-position: -31px 0;
 footer .about li a.skype{width: 17px;height: 18px;background-position: -43px 0;}
 footer .rights{display: block;text-align: center;padding: 40px 0;margin-top: 60px;color: #fff;font-size: 14px;border-top: 1px solid #82abd4;}
 footer .rights a.rights_link{font-weight: bold;text-decoration: none;}
+
+/*响应*/
+@media(max-width: 1500px){
+    .house{height: 800px;}
+}
+@media(max-width: 1200px){
+        .wrapper{max-width: 1000px;padding: 0 50px;}
+        footer .footer>ul>li{margin-right: 5%;}
+        footer .footer>ul>li.links{width: 16%;}
+        footer .footer>ul>li.about{width: 30%;}
+}
+@media(max-width: 800px){
+	.house{height: 600px;}
+	.house .heading{width: 90%;padding: 0 5%;}
+	.house .heading h3{margin: 0;left: 0;}
+	header a.menu_icon{display: block;}
+	header nav{position: absolute;display: none;width: 90%;top:92px;left: 5%;float: none;overflow: hidden;z-index: 9999;background: #fff;border-top: 2px solid #bfd9f2;}
+	header nav.active{display: block;}
+	header nav.login_btn{float: none;display: inline-block;width: 100%;margin: 0;border: 0;padding: 20px 0;text-align: center;background: #ccc;}
+	header nav ul{display: block;width: 100%;text-align: center;margin-top: 0;}
+	header nav ul li{display: block;width: 100%;float: none;margin-left: 0;}
+	header nav ul li a{display: block;padding: 20px 0;border-bottom: 1px solid #ccc;}
+	header nav ul li a:active{background: #ccc;}
+	header nav ul li a,header nav.login_btn{color: #000;}
+	header nav ul li:last-child{border:0;}
+	.list ul.house_list li{width: 46%;margin: 0 8% 8% 0;}
+	.list ul.house_list li:nth-child(3n+0){margin: 0 8% 8% 0;}
+	.list ul.house_list li:nth-child(2n+0){margin-right: 0;}
+	footer .footer>ul>li{width: 30%!important;margin-right: 5%;margin-bottom: 100px;}
+    footer .footer > ul > li:nth-child(3){margin-right: 0;}
+    footer .footer > ul > li.links li a{text-align: center;}
+    footer .footer > ul > li.about{text-align: center;float: none;display: inline; margin-right: 100%; overflow: hidden;border-top: 1px solid #82abd4;
+    }
+}
+
+@media (max-width:500px){
+    .house .heading h2{font-size: 80px;}
+	.house .heading h3{font-size: 16px;}
+	.search #search{width: 80%;}
+	.list ul.house_list li{width: 100%;margin-bottom: 60px!important;}
+	.list ul.house_list li:last-child{ margin-bottom: 0!important;}
+	.list ul.house_list li:nth-child(3n+0),.list ul.house_list li:nth-child(2n+0){ margin:0; }
+	.list .more_list_btn{display: block;width: 100%;padding-left: 0!important;padding-right: 0!important;}
+	footer .footer > ul > li.links,footer .footer > ul > li.about{float: none;width: 100%!important;margin-right: 0;margin-bottom: 50px;padding-bottom: 60px;}
+	footer .footer > ul > li:last-child{padding-bottom: 0;}
+	footer .footer > ul > li.links{border-bottom: 1px solid #82abd4;}
+}
