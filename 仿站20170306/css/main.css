@@ -23,7 +23,7 @@ header nav ul li{float: left;margin-left: 50px;}
 header nav ul li a,header nav .login_btn{text-decoration: none;color: #fff;font-family: Lato,arial,sans-serif;font-size: 16px;letter-spacing: 1px;}
 header nav .login_btn{float: right;margin: 30px 0 30px 50px;padding: 11px 28px;border:2px solid #fff;background: transparent;transition: background .2s linear;-webkit-transition:background .2s linear;-moz-transition:background .2s linear;-o-transition:background .2s linear;}
 header nav .login_btn:hover{background: #fff;color: #000;}
-.house .heading{width: 100%;position: absolute;text-align: center;top: 30%;z-index: 9999;}
+.house .heading{width: 100%;position: absolute;text-align: center;top: 30%;z-index: 20;}
 .house .heading h2{color: #fff;font-family:"p22_corinthia", arial,sans-serif;font-size: 100px;font-weight: lighter;position: relative;display: block;}
 .house .heading h3{color: #fff;font-size: 14px;}
 /*search*/
@@ -87,7 +87,7 @@ footer .rights a.rights_link{font-weight: bold;text-decoration: none;}
 	header a.menu_icon{display: block;}
 	header nav{position: absolute;display: none;width: 90%;top:92px;left: 5%;float: none;overflow: hidden;z-index: 9999;background: #fff;border-top: 2px solid #bfd9f2;}
 	header nav.active{display: block;}
-	header nav.login_btn{float: none;display: inline-block;width: 100%;margin: 0;border: 0;padding: 20px 0;text-align: center;background: #ccc;}
+	header nav .login_btn{float: none;display: inline-block;width: 100%;margin: 0;border: 0;padding: 20px 0;text-align: center;background: #ccc;}
 	header nav ul{display: block;width: 100%;text-align: center;margin-top: 0;}
 	header nav ul li{display: block;width: 100%;float: none;margin-left: 0;}
 	header nav ul li a{display: block;padding: 20px 0;border-bottom: 1px solid #ccc;}
