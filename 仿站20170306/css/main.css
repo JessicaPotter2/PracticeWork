@@ -74,8 +74,8 @@ footer .rights a.rights_link{font-weight: bold;text-decoration: none;}
 @media(max-width: 1500px){
     .house{height: 800px;}
 }
-@media(max-width: 1200px){
-        .wrapper{max-width: 1000px;padding: 0 50px;}
+@media(max-width: 1150px){
+        .wrapper{max-width: 1020px;padding: 0 40px;}
         footer .footer>ul>li{margin-right: 5%;}
         footer .footer>ul>li.links{width: 16%;}
         footer .footer>ul>li.about{width: 30%;}
