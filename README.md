@@ -4,11 +4,11 @@ work of practice
 
 >这里是近期练习作品合集，素材PSD来自于不同的网站，只为更好地练习，不做商用。
 >在线演示合集：
-<a href="http://codepen.io/cumtyeyunjiao/full/JWyPWq/" target="_blank"><img src="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/%E4%BB%BF%E7%AB%9920170228.png?raw=true" alt="网站整体预览图" width="100px"/>20170228</a>
-<a href="http://codepen.io/cumtyeyunjiao/full/jBrpPG/" target="_blank"><img src="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170304/%E4%BB%BF%E7%AB%9920170304.png?raw=true" alt="网站整体预览图" width="100px"/>20170304</a>
-<a href="http://codepen.io/cumtyeyunjiao/full/ZeJzxm/" target="_blank"><img src="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170306/%E4%BB%BF%E7%AB%9920170306.png?raw=true" alt="网站整体预览图" width="100px"/>20170306</a>
++ <a href="http://codepen.io/cumtyeyunjiao/full/JWyPWq/" target="_blank"><img src="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/%E4%BB%BF%E7%AB%9920170228.png?raw=true" alt="网站整体预览图" width="100px" height="100px"/></a>
++ <a href="http://codepen.io/cumtyeyunjiao/full/jBrpPG/" target="_blank"><img src="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170304/%E4%BB%BF%E7%AB%9920170304.png?raw=true" alt="网站整体预览图" width="100px" height="100px"/></a>
++ <a href="http://codepen.io/cumtyeyunjiao/full/ZeJzxm/" target="_blank"><img src="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170306/%E4%BB%BF%E7%AB%9920170306.png?raw=true" alt="网站整体预览图" width="100px" height="100px"/></a>
 <h3>单页网站练习20170228</h3>
->素材来自 <a href="http://pixelhint.com" target="_blank">Pixelhint.com</a>,已附上<a href="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/index.psd" target="_blank">PSD</a>网站实现：HTML5、CSS、JQuery。
+>素材来自 <a href="http://pixelhint.com" target="_blank">Pixelhint.com</a>,已附上<a href="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/index.psd" target="_blank">PSD</a>网站实现：HTML5、CSS、JQuery。可自适应。
 >**在线演示**<a href="http://codepen.io/cumtyeyunjiao/full/JWyPWq/" target="_blank">Demo</a>
 ####制作这个网页时遇到的问题及解决办法：
 + 将其放在<a href="http://codepen.io/cumtyeyunjiao/pens/public/">codepen</a>上时，由于引用了github上的JQuery和另一个插件的raw版本的文件，效果显现不出来，而且浏览器报错：because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled.Google了一下，说是因为raw.githubusercontent.com在Response中设置了X-Content-Type-Options:nosniff ，告诉浏览器强制检查资源的MIME，进行加载。这是一种安全功能，但是会更改浏览器的行为，导致浏览器不加载css文件和JS文件。答主建议将raw.githubusercontent.com换成rawgit.com，由此，codepen上的引用文件可访问。
@@ -22,7 +22,7 @@ work of practice
 <img src="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87.png?raw=true" alt="网站自适应情况图" width="350px">
 
 <h3>单页网站练习20170304</h3>
->素材来自 <a href="http://sc.chinaz.com/" target="_blank">站长素材</a>,已附上<a href="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170304/psd20434.psd" target="_blank">PSD</a>网站实现：HTML5、CSS、JavaScript、JQuery。
+>素材来自 <a href="http://sc.chinaz.com/" target="_blank">站长素材</a>,已附上<a href="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170304/psd20434.psd" target="_blank">PSD</a>网站实现：HTML5、CSS、JavaScript、JQuery。可自适应。
 >**在线演示**<a href="http://codepen.io/cumtyeyunjiao/full/jBrpPG/" target="_blank">Demo</a>
 
 ####制作这个网页时遇到的问题及解决办法：
@@ -40,7 +40,7 @@ work of practice
 
 
 <h3>单页网站练习20170306</h3>
->素材来自 <a href="http://pixelhint.com" target="_blank">Pixelhint.com</a>,已附上<a href="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170306/La_Casa.psd" target="_blank">PSD</a>网站实现：HTML5、CSS、JQuery。
+>素材来自 <a href="http://pixelhint.com" target="_blank">Pixelhint.com</a>,已附上<a href="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170306/La_Casa.psd" target="_blank">PSD</a>网站实现：HTML5、CSS、JQuery。可自适应。
 >**在线演示**<a href="http://codepen.io/cumtyeyunjiao/full/ZeJzxm/" target="_blank">Demo</a>
 + 由于font的问题，会导致下面展示图的排列不同，默认用Microsoft Yahei，导致将展示图的边框线挤掉了，尽管在比例合适的时候，但是原PSD用的是p22_corinthia字体，同样字体大小，如”16px“的情况下，实际大小是不同的，因此我换成p22_corinthia，合适比例的时候，边框线并没有被挤掉，文字的展示也符合原PSD上的布局。
 + 引用github上的font时，是没有其他资源引用时的按钮，因此我不断尝试，通过，字体页面字体文件的View Raw按钮，点击后会弹出下载框，此时下载框内的下载地址可以作为引用地址，.svg的引用与其他文件不同，有Raw按钮，但是Raw之后要将raw.githubusercontent.com该成rawgit.com才可引用。
