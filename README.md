@@ -11,12 +11,13 @@ work of practice
 
 
 <h4>网站整体预览图</h4>
-![网站预览图](https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/%E4%BB%BF%E7%AB%9920170228.png?raw=true =300*500)
+<img src="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/%E4%BB%BF%E7%AB%9920170228.png?raw=true" alt="网站整体预览图" style="width:600px;"/>
+
 
 
 
 <h4>网站自适应情况图</h4>
-![网站自适应情况图片](https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87.png?raw=true)
+<img src="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87.png?raw=true" alt="网站自适应情况图" style="width:350px;">
 
 <h3>单页网站练习20170304</h3>
 >素材来自 <a href="http://sc.chinaz.com/">站长素材</a>,已附上<a href="https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170304/psd20434.psd">PSD</a>
