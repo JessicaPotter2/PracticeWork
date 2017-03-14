@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
     /*  Stuff Slider  */
@@ -23,8 +24,6 @@ $(document).ready(function(){
         $("#nav_menu").toggleClass("show_menu");
         return false;
     });
-
 });
-
 
 
