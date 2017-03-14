@@ -11,7 +11,7 @@ work of practice
 
 
 <h4>网站整体预览图</h4>
-![网站预览图](https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/%E4%BB%BF%E7%AB%9920170228.png?raw=true)
+![网站预览图](https://github.com/JessicaPotter2/PracticeWork/blob/master/%E4%BB%BF%E7%AB%9920170228/%E4%BB%BF%E7%AB%9920170228.png?raw=true =300*500)
 
 
 
